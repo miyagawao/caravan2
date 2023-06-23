@@ -9,11 +9,27 @@ a {
   text-decoration: none;
 }
 
+header, nav, .main-visual, footer {
+  font-family: Chalkduster, "Bradley", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px; 
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 header .heading {
@@ -127,7 +143,7 @@ main {
   color: #fff;
   background-color: #acabab;
   border-radius: 3px;
-  line-height: 30px
+  line-height: 30px;
 }
 
 .sidebar {
